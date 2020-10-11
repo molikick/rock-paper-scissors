@@ -2,6 +2,7 @@
 Orientation - JS assignment 2 (Rock Paper Scissors)
 Solution by: Iaroslav Eremeev
 */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,26 +10,26 @@ Solution by: Iaroslav Eremeev
 }
 section {
     height: 100vh;
-    background-color: rgb(38, 41, 68);
-    font-family: sans-serif; 
+    background-color: rgb(60, 30, 70);
+    font-family: 'Josefin Sans', sans-serif;
 }
 .score {
-    color: rgb(223, 223, 223);
+    color: rgb(220, 220, 220);
     height: 20vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .score h2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 .score p {
     text-align: center;
     padding: 10px;
-    font-size: 25px;
+    font-size: 35px;
 }
 .intro {
-    color: rgb(223, 223, 223);
+    color: rgb(220, 220, 220);
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -45,9 +46,10 @@ section {
     background: none;
     border: none;
     border-radius: 2px;
-    color: rgb(223, 223, 223);
+    color: rgb(220, 220, 220);
     font-size: 20px;
-    background-color: rgb(45, 117, 96);
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(75, 160, 100);
     cursor: pointer;
 }
 .match {
@@ -58,7 +60,7 @@ section {
     transition: opacity 0.5s ease 0.5s;
 }
 .winner {
-    color: rgb(223, 223, 223);
+    color: rgb(220, 220, 220);
     text-align: center;
     font-size: 50px;
 }

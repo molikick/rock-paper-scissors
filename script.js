@@ -118,3 +118,23 @@ const game = () => {
 
 //start the game function
 game();
+
+
+/**добавить фичу: 
+game ends if a player or computer wins 3 times in a row
+an idea: use an array to record wins/results and check after every round if the three latest items match
+user interface enhancements
+buttons are disabled while hands are shaking
+use rock image for all handshake animations
+add a game over screen
+check features 1. & 2.
+display winner info after the whole game ends
+hide hand images and option buttons
+you can use the game start screen as a reference
+
+медали: за 3-0 золотая
+за 3-1 серебрянная 
+за 3-2 бронзовая
+
+также score появляется только после нажатия кнопки lets play
+*/
